@@ -1,0 +1,29 @@
+.create-btn {
+  height: 40px;
+  width: 100%;
+  padding: 2%;
+  border-radius: 5px;
+  background-color: rgb(108, 37, 255);
+  color: white;
+  border: none;
+  margin-top: 28%;
+  font-weight: 800;
+}
+
+.create-btn:hover {
+  background-color: rgb(77, 23, 154);
+}
+
+.red {
+  color: red;
+}
+
+.font h2 {
+  font-size: 28px;
+  margin-bottom: 0%;
+}
+
+.form-group-radio {
+  font-size: 14px;
+  line-height: 4px;
+}

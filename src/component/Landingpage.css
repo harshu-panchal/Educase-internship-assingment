@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.font {
+  font-family: sans-serif;
+}
+
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border: 1px solid rgb(196, 195, 195);
+  background-color: rgb(247, 248, 249);
+  padding: 7%;
+  width: 100%;
+  max-width: 400px;
+  height: 100vh;
+}
+
+.page {
+  justify-content: flex-end;
+}
+
+p {
+  color: rgb(117, 116, 116);
+}
+
+.btn {
+  height: 40px;
+  width: 100%;
+  padding: 2%;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 6%;
+  font-weight: bold;
+}
+
+.dark-purple {
+  background-color: rgb(108, 37, 255);
+  color: white;
+}
+
+.login {
+  background-color: rgb(206, 186, 251);
+  color: rgb(108, 37, 255);
+}
+
+.login:hover {
+  background-color: rgb(142, 81, 255);
+  color: white;
+}
+
+.create:hover {
+  background-color: rgb(77, 23, 154);
+}
