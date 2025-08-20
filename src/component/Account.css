@@ -1,0 +1,61 @@
+.account-page {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border: 1px solid rgb(196, 195, 195);
+  background-color: rgb(247, 248, 249);
+  width: 100%;
+  max-width: 400px;
+  height: 100vh;
+  justify-content: flex-start;
+}
+
+.profile {
+  padding: 6%;
+  border-bottom: 1px dashed rgb(202, 202, 202);
+  padding-top: 10%;
+}
+
+.account-heading {
+  border: 1px solid rgb(207, 203, 203);
+  padding: 8%;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(94, 93, 93);
+}
+
+.img-text {
+  display: flex;
+}
+
+.photo {
+  width: 60px;
+  height: 60px;
+}
+
+.name-email {
+  padding: 2%;
+  padding-left: 4%;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.name {
+  font-weight: bold;
+  color: rgb(81, 81, 81);
+}
+
+.emailid {
+  color: rgb(105, 105, 105);
+}
+
+.description {
+  padding-top: 4%;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: rgb(105, 105, 105);
+  word-spacing: 1px;
+  line-height: 1.4;
+}
